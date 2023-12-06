@@ -6,13 +6,13 @@ This repo contains the details of our experimental investigation for dynamic wal
 
 Bergonzani, Ivan & Popescu, Mihaela & Kumar, Shivesh & Kirchner, Frank. (2023). "Fast Dynamic Walking with RH5 Humanoid Robot". 10.13140/RG.2.2.17744.28166. 
 
-@misc{bergonzani2023,
-  author = {Bergonzani, Ivan and Popescu, Mihaela and Kumar, Shivesh and Kirchner, Frank},
-  year = {2023},
-  month = {09},
-  pages = {},
-  title = {Fast Dynamic Walking with RH5 Humanoid Robot},
-  doi = {10.13140/RG.2.2.17744.28166}
+@misc{bergonzani2023,  
+  author = {Bergonzani, Ivan and Popescu, Mihaela and Kumar, Shivesh and Kirchner, Frank},  
+  year = {2023},  
+  month = {09},  
+  pages = {},  
+  title = {Fast Dynamic Walking with RH5 Humanoid Robot},  
+  doi = {10.13140/RG.2.2.17744.28166}  
 }
 
 </div>
