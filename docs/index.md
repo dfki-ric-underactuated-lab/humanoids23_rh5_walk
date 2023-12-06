@@ -28,10 +28,19 @@ The robot was tested in three different experiments:
 </ul>
 
 <figure>
+  <!-- 
   <img src="static/figures/rh5_fast_walk_ver2.png" width="40%" alt="">
   <img src="static/figures/rh5_long_stride_contrast.png" width="40%" alt="">
-  <img src="static/figures/rh5_step_in_place.png" width="60%" alt="">
-  <figcaption>Fig.1 - Shots of the walk experiments</figcaption>
+  <img src="static/figures/rh5_step_in_place.png" width="60%" alt=""> 
+  <img src="static/figures/fast_walk.gif" width="50%" alt="">
+  <img src="static/figures/long_stride.gif" width="20%" alt="">
+  <img src="static/figures/step_in_place.gif" width="60%" alt="">
+  -->
+  <img src="static/figures/step_in_place.gif" width="50%" alt="">
+  <img src="static/figures/rh5_long_stride_contrast.png" width="44%" alt="">
+  <br>
+  <img src="static/figures/fast_walk.gif" width="60%" alt="" style="margin-top: 5px;">
+  <figcaption>Fig.1 - Shots of different walk experiments</figcaption>
 </figure>
 
 Each motion is generated starting from a velocity and direction input given through a joystick. These define the next footsteps to follow. Given a Zero-Moment Point (ZMP) trajectory, a corresponding Center of Mass (CoM) trajectory is obtained by solving a LQR problem modeling the dynamics as a linear inverted pendulum model.
