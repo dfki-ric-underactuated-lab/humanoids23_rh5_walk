@@ -80,9 +80,9 @@ The CoM trajectory is then stabilized online by means of admittance strategies t
 <p>
 To summarise the work,
 <ul>  
-  <li> RH5 is able to walk up to 0.43~m/s which is among the fastest robots with similar size and actuation modalities.</li>
+  <li> RH5 is able to walk up to 0.43 m/s which is among the fastest robots with similar size and actuation modalities.</li>
   <li>  Saturation of velocity limit for knee and hip joints while using a fraction of the available torque. Possible improvements by changing screw pitch for selected linear actuators.</li>
-  <li> While using only the 77% of the total mass of the robot (no arms, no head), the used effort is below 70% percent of the limit. This suggests that the robot is able to mantain the same performance with a complete upper body.</li>
+  <li> While using only the 77% of the total mass of the robot (no arms, no head), the used effort is below 70% of the limit. This suggests that the robot is able to mantain the same performance with a complete upper body.</li>
   <li> Future introduction of an updated upper body for manipulation capabilities and momentum compensation.</li>
 </ul>
 </p>
