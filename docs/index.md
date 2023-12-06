@@ -6,7 +6,7 @@ youtube: https://www.youtube.com/watch?v=39GL2vPedGY&ab_channel=GermanResearchCe
 
 authors:
   - {name: Ivan Bergonzani, affiliation_key: 1, link: https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/ivbe01.html}
-  - {name: Mihaela popescu, affiliation_key: 2, link: https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/mipo02.html}
+  - {name: Mihaela Popescu, affiliation_key: 2, link: https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/mipo02.html}
   - {name: Shivesh Kumar, affiliation_key: 1, link: https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/shku02.html}
   - {name: Frank Kirchner, affiliation_key: [1,2], link: https://robotik.dfki-bremen.de/de/ueber-uns/mitarbeiter/frki01.html}
 affiliations:
@@ -18,7 +18,7 @@ affiliations:
 Humanoid robots have the potential of becoming general purpose robots augmenting the human work-force in industries. However, they must match the agility and versatility of humans. It is particularly challenging for humanoids actuated with electric drives to achieve that as one must strive for the right balance between mass-inertial distribution in the robot as well as velocity and force transmissions in its actuation concept. In addition to optimal design of the robot, the control system must be designed to exploit the full potential of the robot. In this paper, we perform experimental investigations on the dynamic walking capabilities of a series-parallel hybrid humanoid named RH5. We demonstrate that it is possible to walk up to speeds of 0.43 m/s with a position controlled robot without full state feedback which makes it one of the fastest walking humanoids with similar size and actuation modalities.
 
 ## Experimental Design
-The experimental design focuses on the RH5 humanoid capabilities for dynamic walking. RH5~\cite{rh5_ebetaer2021design} is a 2 m tall series-parallel hybrid humanoid robot with 32 degrees of freedom (DoFs) and a weight of 62.5 kg. The robot has 6 DoFs per leg, 7 DoFs on each arm, 3 DoFs for the head and 3 DoFs for the body. Head and arms, accounting for $23\%$ of the total mass, are not used in the experiments.
+The experimental design focuses on the RH5 humanoid capabilities for dynamic walking. RH5 \cite{rh5_ebetaer2021design} is a 2 m tall series-parallel hybrid humanoid robot with 32 degrees of freedom (DoFs) and a weight of 62.5 kg. The robot has 6 DoFs per leg, 7 DoFs on each arm, 3 DoFs for the head and 3 DoFs for the body. Head and arms, accounting for $23\%$ of the total mass, are not used in the experiments.
 
 The robot was tested in three different experiments:
 <ul>  
@@ -34,7 +34,7 @@ The robot was tested in three different experiments:
   <figcaption>Fig.1 - Shots of the walk experiments</figcaption>
 </figure>
 
-Each motion is generated starting from a velocity and direction input given through a joiystick. These define the next footsteps to follow. Given a Zero-Moment Point (ZMP) trajectory, a corresponding Center of Mass (CoM) trajectory is obtained by solving a LQR problem modeling the dynamics as a linear inverted pendulum model.
+Each motion is generated starting from a velocity and direction input given through a joystick. These define the next footsteps to follow. Given a Zero-Moment Point (ZMP) trajectory, a corresponding Center of Mass (CoM) trajectory is obtained by solving a LQR problem modeling the dynamics as a linear inverted pendulum model.
 The CoM trajectory is then stabilized online by means of admittance strategies that leverage the force/torque feedback at the ankle joints of while the overall behavior of the robot is optimized using a Task Space Inverse Dynamics (TSID) based Whole Body Controller (WBC).
 
 <figure>
